@@ -1,0 +1,54 @@
+/* cal.css */
+
+body {
+    width: 40vh;
+    height: 120vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  }
+  
+  .calculator {
+    border: 1px solid #717377;
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 150vh;
+    background: transparent;
+    box-shadow: 0px 4px 15px rgba(113, 115, 119, 0.5);
+  }
+  
+  input {
+    width: 200px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0px 4px 15px rgba(113, 115, 119, 0.5);
+  }
+  
+  input::placeholder {
+    color: #ffffff;
+  }
+  
+  .btn {
+    color: green;
+  }
+  
+  .equal {
+    background: orange;
+  }
+  
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0px 4px 15px rgba(113, 115, 119, 0.5);
+    cursor: pointer;
+  }
